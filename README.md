@@ -10,13 +10,13 @@ El proyecto fue desarrollado en **Visual Studio 2022**, utilizando **C# y .NET**
 
 ## 🛠️ Tecnologías utilizadas
 - C#
-- .NET
+- .NET Framework 4.7.2
 - Windows Forms
 - Entity Framework
-- SQL Server (o base de datos relacional)
+- Microsoft SQL Server
 - Visual Studio 2022
 - NUnit (pruebas unitarias)
-- Exportación de datos a Excel
+- Exportación de reportes a Excel
 
 ---
 
