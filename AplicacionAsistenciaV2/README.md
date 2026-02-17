@@ -1,10 +1,52 @@
 # Aplicación de Asistencia de Empleados
 
+![C#](https://img.shields.io/badge/C%23-Language-green)
+![.NET](https://img.shields.io/badge/.NET%20Framework-4.7.2-blueviolet)
+![WinForms](https://img.shields.io/badge/Windows%20Forms-Desktop-blue)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-red)
+![NUnit](https://img.shields.io/badge/NUnit-Test%20Structure-lightgrey)
+
 ## 📌 Descripción
 Aplicación de escritorio desarrollada como proyecto académico, orientada a la gestión de asistencia de empleados.  
 Permite autenticar usuarios, registrar entradas y salidas, administrar empleados y generar reportes de asistencia con opción de exportación a Excel.
 
-El proyecto fue desarrollado en **Visual Studio 2022**, utilizando **C# y .NET**, como parte de la asignatura **Integración II**.
+El proyecto fue desarrollado en **Visual Studio 2022**, utilizando **C# y .NET Framework 4.7.2**, como parte de la asignatura **Integración II**.
+
+---
+
+## 🧭 Flujo general de la aplicación
+
+1. **Inicio de la aplicación**
+   - El usuario accede a la aplicación y se muestra la pantalla de inicio de sesión.
+   - Debe ingresar su **ID y contraseña**, los cuales son validados contra la base de datos.
+   - Si el ID es incorrecto, el sistema informa el error.
+   - Si la contraseña es incorrecta, se notifica al usuario.
+   - Al ingresar credenciales válidas, el usuario accede al sistema.
+
+2. **Registro de asistencia**
+   - Tras el inicio de sesión, se muestra la vista principal de asistencia.
+   - El usuario puede:
+     - Marcar **entrada**
+     - Marcar **salida**
+   - El sistema registra automáticamente la fecha y hora del evento.
+   - La vista incluye un reloj visible en pantalla.
+
+3. **Gestión de empleados**
+   - A través de una segunda pestaña, se accede a la gestión de empleados.
+   - Se muestra un formulario para:
+     - Crear nuevos empleados
+     - Modificar empleados existentes
+   - En la parte inferior se visualiza una tabla con todos los empleados registrados.
+   - Al hacer doble clic sobre un empleado, sus datos se cargan automáticamente en el formulario, facilitando su edición.
+
+4. **Generación de reportes**
+   - En la tercera pestaña, el usuario puede generar reportes de asistencia.
+   - El sistema permite seleccionar:
+     - Tipo de reporte (general, inasistencia, atraso o salida adelantada)
+     - RUT específico o todos los empleados
+     - Rango de fechas (fecha de inicio y término)
+   - Los resultados se muestran en una tabla.
+   - El reporte puede **exportarse a Excel**.
 
 ---
 
@@ -15,7 +57,7 @@ El proyecto fue desarrollado en **Visual Studio 2022**, utilizando **C# y .NET**
 - Entity Framework
 - Microsoft SQL Server
 - Visual Studio 2022
-- NUnit (pruebas unitarias)
+- NUnit (estructura de pruebas unitarias)
 - Exportación de reportes a Excel
 
 ---
@@ -66,6 +108,14 @@ El proyecto fue desarrollado en **Visual Studio 2022**, utilizando **C# y .NET**
 
 ## 🗄️ Base de datos
 La aplicación utiliza **Microsoft SQL Server** como sistema de base de datos para el almacenamiento de la información de empleados y registros de asistencia.
+
+---
+
+## 🧪 Pruebas
+El proyecto incluye una estructura de pruebas unitarias utilizando **NUnit**.  
+No obstante, estas pruebas no se encuentran completamente operativas debido a incompatibilidades entre la versión del framework y el entorno de desarrollo actual.
+
+La estructura se mantiene con fines académicos.
 
 ---
 
