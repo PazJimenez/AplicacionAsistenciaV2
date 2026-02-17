@@ -10,13 +10,13 @@ El proyecto fue desarrollado en **Visual Studio 2022**, utilizando **C# y .NET**
 
 ## 🛠️ Tecnologías utilizadas
 - C#
-- .NET
+- .NET Framework 4.7.2
 - Windows Forms
 - Entity Framework
-- SQL Server (o base de datos relacional)
+- Microsoft SQL Server
 - Visual Studio 2022
 - NUnit (pruebas unitarias)
-- Exportación de datos a Excel
+- Exportación de reportes a Excel
 
 ---
 
@@ -78,6 +78,22 @@ Actualmente no se encuentra en desarrollo activo.
 ## ℹ️ Notas
 - El proyecto fue desarrollado hace un tiempo y puede requerir ajustes para ejecutarse en entornos actuales.
 - La configuración de la base de datos puede necesitar adaptación según el entorno local.
+
+---
+
+## 🖼️ Capturas de pantalla
+
+### Login
+![Login](docs/images/login.png)
+
+### Registro de asistencia
+![Asistencia](docs/images/asistencia.png)
+
+### Gestión de empleados
+![Empleados](docs/images/empleados.png)
+
+### Reportes
+![Reportes](docs/images/reportes.png)
 
 ---
 
