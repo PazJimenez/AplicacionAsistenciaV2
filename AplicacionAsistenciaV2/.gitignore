@@ -1,0 +1,15 @@
+# Visual Studio / C#
+.vs/
+[Bb]in/
+[Oo]bj/
+
+# Archivos de usuario
+*.user
+*.suo
+
+# NuGet
+packages/
+
+# Logs y temporales
+*.log
+*.tmp
