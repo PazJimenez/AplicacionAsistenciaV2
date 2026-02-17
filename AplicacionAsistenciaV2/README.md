@@ -87,10 +87,10 @@ Actualmente no se encuentra en desarrollo activo.
 ![Login](docs/images/Login.png)
 
 ### Registro de asistencia
-![Asistencia](docs/images/Marcar asistencia.png)
+![Asistencia](docs/images/Marcar_Asistencia.png)
 
 ### Gestión de empleados
-![Empleados](docs/images/Crear usuario.png)
+![Empleados](docs/images/Crear_usuario.png)
 
 ### Reportes
 ![Reportes](docs/images/Reportes.png)
