@@ -84,16 +84,16 @@ Actualmente no se encuentra en desarrollo activo.
 ## 🖼️ Capturas de pantalla
 
 ### Login
-![Login](docs/images/login.png)
+![Login](docs/images/Login.png)
 
 ### Registro de asistencia
-![Asistencia](docs/images/asistencia.png)
+![Asistencia](docs/images/Marcar asistencia.png)
 
 ### Gestión de empleados
-![Empleados](docs/images/empleados.png)
+![Empleados](docs/images/Crear usuario.png)
 
 ### Reportes
-![Reportes](docs/images/reportes.png)
+![Reportes](docs/images/Reportes.png)
 
 ---
 
