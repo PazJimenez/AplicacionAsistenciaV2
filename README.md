@@ -81,5 +81,21 @@ Actualmente no se encuentra en desarrollo activo.
 
 ---
 
+## 🖼️ Capturas de pantalla
+
+### Login
+![Login](docs/images/login.png)
+
+### Registro de asistencia
+![Asistencia](docs/images/asistencia.png)
+
+### Gestión de empleados
+![Empleados](docs/images/empleados.png)
+
+### Reportes
+![Reportes](docs/images/reportes.png)
+
+---
+
 ## 👤 Autor
 Andrea Paz
